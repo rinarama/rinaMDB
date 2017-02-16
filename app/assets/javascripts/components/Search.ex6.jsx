@@ -1,4 +1,4 @@
-class Searchbar extends React.Component {
+class Search extends React.Component {
   constructor(){
     super();
     this.handleSubmit = this.handleSubmit.bind(this)
@@ -23,7 +23,7 @@ class Searchbar extends React.Component {
           <div id="brand">
             <img id="flop-logo" src="https://s-media-cache-ak0.pinimg.com/originals/a1/b3/5c/a1b35cd6f364aa1fd520528852311063.jpg" />
             <img src="https://s-media-cache-ak0.pinimg.com/originals/a1/b3/5c/a1b35cd6f364aa1fd520528852311063.jpg" />
-            <span>FindFlix</span>
+            <span>rinaMDB</span>
           </div>
           <form id="search-form" onSubmit={ this.handleSubmit }>
             <input ref="searchInfo" id="search" type="text" name="query"/>
