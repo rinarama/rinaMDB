@@ -13,6 +13,7 @@ class Search extends React.Component {
     }).done( res => {
       let arr = res.Search;
       this.props.addMovie(arr);
+      this.props.changeDetail(false);
     }.bind(this))
 
   }
@@ -25,7 +26,7 @@ class Search extends React.Component {
             <span>rinaMDB</span>
           </div>
           <form id="search-form" onSubmit={ this.handleSubmit }>
-            <input ref="searchInfo" id="search" type="text" name="query"/>
+            <input ref="searchInfo" id="search" type="text" name="query" placeholder="Search for a movie"/>
             <i className="fa fa-search"></i>
           </form>
         </div>

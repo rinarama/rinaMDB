@@ -10,14 +10,15 @@ html, body {
 
 * {
   box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
 }
 
 body {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 
 #t-nav span {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   position: relative;
   bottom: -12px;
   display: inline-block;
@@ -46,7 +47,11 @@ li {
 }
 
 a {
-  color: #FF0057;
+  color: #715e88;
+  text-decoration: none;
+}
+a:hover {
+  color: ##00cc99;
 }
 
 h3 {
@@ -60,7 +65,7 @@ p {
 #top-nav {
   position: fixed;
   background: #55ACEE;
-  height: 50px;
+  height: 75px;
   width: 100%;
   min-width: 768px;
   top: 0;
@@ -74,6 +79,7 @@ p {
   text-align: center;
   line-height: 50px;
   font-size: 24px;
+  font-family: 'Oxygen', sans-serif;
   color: white;
   display: inline-block;
 }
@@ -133,7 +139,7 @@ p {
   width: 500px;
   border-radius: 10px;
   border: 3px dashed #33b191;
-  background-color: whitesmoke;
+  background-color: rgba(245, 236, 223, 0.6);
 }
 
 #tweets-container h3 {
@@ -209,16 +215,43 @@ p {
 
 #flop-logo {
   -webkit-transform:rotateY(180deg);
--moz-transform:rotateY(180deg);
--o-transform:rotateY(180deg);
--ms-transform:rotateY(180deg);
-unicode-bidi:bidi-override;
-direction:rtl;
+  -moz-transform:rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  -ms-transform:rotateY(180deg);
+  unicode-bidi:bidi-override;
+  direction:rtl;
 }
 
 #brand img {
   position: relative;
   top: 13px;
-  width: 40px;
+  width: 50px;
   padding-right: 5px;
+}
+
+.movie-detail {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.d-container {
+  display: flex;
+}
+
+.mp-container {
+  margin-top: 25px;
+}
+
+.mp-container p {
+  background-color: whitesmoke;
+  color: #19886c;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 3px 0px;
+}
+
+.m-content {
+  padding-left: 25px;
+  font-size: 18px;
 }
