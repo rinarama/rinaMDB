@@ -10,7 +10,7 @@ class Timeline extends React.Component {
         <ul>
         {
           this.props.movieData.map((movieInfo, i) =>{
-            return <Movie movie={tweetInfo} key={i} />
+            return <Movie movie={movieInfo} key={i} />
           })
         }
 

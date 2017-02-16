@@ -1,6 +1,11 @@
 html, body {
   padding: 0;
   margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #33b191;
+  background: url(https://s-media-cache-ak0.pinimg.com/originals/2b/a9/f9/2ba9f902ca8a9c5644038535de08dd34.jpg);
+  background-repeat: repeat-y;
 }
 
 * {
@@ -8,11 +13,11 @@ html, body {
 }
 
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 #t-nav span {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   position: relative;
   bottom: -12px;
   display: inline-block;
@@ -68,7 +73,6 @@ p {
 #brand {
   text-align: center;
   line-height: 50px;
-  font-family: 'Lobster', cursive;
   font-size: 24px;
   color: white;
   display: inline-block;
@@ -127,8 +131,9 @@ p {
   position: absolute;
   left: 260px;
   width: 500px;
-  border-radius: 6px;
-  border: 1px solid #000;
+  border-radius: 10px;
+  border: 3px dashed #33b191;
+  background-color: whitesmoke;
 }
 
 #tweets-container h3 {
@@ -172,19 +177,18 @@ p {
 }
 
 #t-nav {
-  background: #546775;
+  background: #9ea5a2;
   height: 70px;
 }
 
 #search-form {
   display: inline-block;
-
+  position: relative;
 }
 
 #search-form i {
   font-size: 33px;
-  right: 410px;
-  color: #546775
+  color: #33b191
 }
 
 #search {
@@ -216,4 +220,5 @@ direction:rtl;
   position: relative;
   top: 13px;
   width: 40px;
+  padding-right: 5px;
 }

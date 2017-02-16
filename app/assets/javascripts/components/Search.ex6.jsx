@@ -21,8 +21,7 @@ class Search extends React.Component {
       <header id="t-nav">
         <div className="nav-container">
           <div id="brand">
-            <img id="flop-logo" src="https://s-media-cache-ak0.pinimg.com/originals/a1/b3/5c/a1b35cd6f364aa1fd520528852311063.jpg" />
-            <img src="https://s-media-cache-ak0.pinimg.com/originals/a1/b3/5c/a1b35cd6f364aa1fd520528852311063.jpg" />
+            <img src="http://applenovinky.cz/wp-content/uploads/2014/03/movie-film-icon-itunes-store.png" />
             <span>rinaMDB</span>
           </div>
           <form id="search-form" onSubmit={ this.handleSubmit }>
