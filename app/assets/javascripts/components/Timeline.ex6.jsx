@@ -9,8 +9,8 @@ class Timeline extends React.Component {
         <h3>Movie List</h3>
         <ul>
         {
-          this.props.tweetData.map((tweetInfo, i) =>{
-            return <Tweet movie={tweetInfo} key={i} />
+          this.props.tweetData.map((movieInfo, i) =>{
+            return <Movie movie={tweetInfo} key={i} />
           })
         }
 

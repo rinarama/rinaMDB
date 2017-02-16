@@ -1,4 +1,4 @@
-class Tweet extends React.Component{
+class Movie extends React.Component{
   render() {
     let movie = this.props.movie
     return(
